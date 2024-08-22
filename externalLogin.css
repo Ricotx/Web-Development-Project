@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .login-container {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .login-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30pt;
+  }
+  
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #33cc33;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .enter-quiz-button {
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+
+  .button {
+    margin-left: 100px;
+    margin-top: 600px;
+    padding: 50px 20px;
+    font-size: 16px;
+    border-radius: 10px; 
+    border: none;
+    background-color: #ffffff; 
+    color: #ffffff; 
+    cursor: pointer;
+  }
+  
+
+  .button {
+    width: 200px;
+    height: 80px;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+  }
+
+  .boxS2V {
+    width: 500px; /* Set the width of the box */
+    height: 300px; /* Set the height of the box */
+    background-color: #f0f0f0; /* Set the background color of the box */
+    border: 2px solid #333; /* Add a border around the box */
+    padding: 20px; /* Add padding inside the box */
+    text-align: center; /* Center the text horizontally */
+    line-height: 200px; /* Center the text vertically */
+    margin: 50px auto; /* Center the box horizontally */
+}
+
+.boxS2N {
+  width: 400px; /* Set the width of the box */
+  height: 200px; /* Set the height of the box */
+  background-color: #f0f0f0; /* Set the background color of the box */
+  border: 2px solid #333; /* Add a border around the box */
+  padding: 20px; /* Add padding inside the box */
+  text-align: center; /* Center the text horizontally */
+  line-height: 200px; /* Center the text vertically */
+  margin: 50px auto; /* Center the box horizontally */
+}
+
+p.error-message{
+
+  background: #F2DEDE;
+  color: #0c0101;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+  color: red;
+  text-align: center;
+
+}
+
+.login-logo {
+  margin-bottom: 50px;
+}
+
+
